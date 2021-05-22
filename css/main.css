@@ -1,0 +1,86 @@
+/*** general sytling***/
+
+body {
+  background: #E8E8E8;
+
+}
+
+#vision-board {
+  background: url(../img/background.png);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 1200px;
+  height: 850px;
+  margin:auto;
+}
+
+/***box styling***/
+.large-block, .small-block {
+  box-sizing: border-box;
+  float: left;
+  width: 400px;
+}
+
+.large-block {
+  height: 430px;
+  padding: 60px 30px 60px 30px;
+}
+
+.small-block {
+  height: 210px;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/***text alignment***/
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+
+/*** list styling***/
+.small-block li {
+  text-align: center;
+  list-style: none;
+}
+
+/***additional styling***/
+h1 span{
+  background: #FFF44F;
+  font-size: 20px;
+}
+
+p span {
+  font-family: 'Permanent Marker', cursive;
+}
+
+p strong {
+  font-size: 30px;
+  text-transform: none;
+}
+
+.light-bg {
+  background: #E8E8E8;
+}
+
+.dark-bg {
+  background: #3B3B3B;
+}
+
+.title-box {
+  color: #FFFFFF;
+  font-size: 38px;
+}
